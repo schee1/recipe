@@ -3,14 +3,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
+body{
+    width: 1280px;
+    background-color: rgba(122, 191, 191, .5);
+    margin: auto;
+}
+
+main{
+    background-color: #f2f2f2;
+    max-width: 1280px;
+}
+
+.menu{
+    position: absolute;
+    border-color: #EB5428;
+    background-color: #FFFFFF;
+    padding: 60px;
+    max-width: 20px;
+    top:300px;
+}
+
+.details{
+    position: relative;
+    background-color: black;
+    color: #7abebf;
+    height: 130px;
+}
+
+#details{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+dl {
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+    text-align: center;
+    bottom: 15px;
+    right: 105px;
+    height: 1px;
+}
+
+#steps{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    right: auto;
+}
+
+dd{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    position: relative;
+    right: 20px;
+    text-align: left;
+}
+
+dt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    left: 18px;
+}
+
+#ingredients{
+    position: relative;
+    left: 20px;
+}
+
+
+#directions{
+    position: relative;
+    left: 700px;
+    bottom:295px;
+}
+
+.directions{
+    height: 10px;
+}
+
+#dir{
+    position: relative;
+    width:800px;
+    left: 400px;
+    bottom: 300px;
+}
+
+.search{
+    position: relative;
+    bottom:1790px;
+    left: 550px;
+}
+
+.search input{
+    border-color: #EB5428;
+    width: 220px;
+    height: 30px;
+}
+
+.search svg{
+    background-color: #EB5428;
+    position: relative;
+    height: 35px;
+    width:50px;
+    top: 12px;
+    right: 4px;
+}
+
+#tacos{
+    width: 400px;
+    position: relative;
+    left:208px;
+    top: 170px;
+}
+
+#par1{
+    position: relative;
+    left: 650px;
+    bottom: 450px;
+    width: 620PX;
+}
+
+#par2{
+    position: relative;
+    left: 650px;
+    bottom: 450px;
+    width: 620PX;
+}
+
 h1{
     font-family:'Bebas Neue', sans-serif ;
     font-size: 40px;
+    display: none;
 }
 
 h2{
     font-family:'Bebas Neue', sans-serif ;
     font-size: 30px;
+}
+
+#name{
+    text-align: center;
+    position: relative;
+    top: 180px;
 }
 
 h3{
@@ -23,25 +162,42 @@ p{
     font-size: 16px;
 }
 
-dd{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-dt{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-}
 
 li{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
+#dishes{
+    text-align: center;
+    margin-top: 10px;
+    padding: 16px;
+}
+
+#sidedish{
+    background-color: #7abebf;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#item
+{
+    margin-left: 44px;
+    margin-top: -20px;
+}
+
 nav{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    width: 1400px;
+    height: 100px;
+    position: relative;
+    right: 30px;
+    bottom: 1780px;
+    background-color: #FFFFFF;
 }
 
 nav a{
@@ -52,6 +208,12 @@ nav a{
 nav span{
     font-family:'Bebas Neue', sans-serif ;
     font-size: 20px;
+}
+
+nav li{
+    display: inline;
+    position: relative;
+    bottom: 35px;
 }
 
 input{
@@ -77,5 +239,7 @@ footer{
 
 .star-ratings{
     color:orange;
-
+    position: relative;
+    bottom: 5px;
+    left:7px;
 }
