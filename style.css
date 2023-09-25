@@ -14,14 +14,55 @@ main{
     max-width: 1280px;
 }
 
-.menu{
+.street-tacos menu {
     position: absolute;
-    border-color: #EB5428;
-    background-color: #FFFFFF;
-    padding: 60px;
-    max-width: 20px;
-    top:300px;
+    border-style: solid;
+    border-color: #eb5428;
+    background-color: white;
+    list-style-type: none;
+    top: 266px;
+    width: 100px;
+    height: 613px;
+  }
+  
+  .street-tacos svg {
+    position: relative;
+    margin-bottom: 30px;
+    right: 32px;
+    padding: 5px;
+    margin-top: 4px;
+  }
+  
+
+  .street-tacos a {
+    position: relative;
+    color: #eb5428;
+    left: 10px;
+    text-decoration: none;
+  }
+
+#tacos{
+    width: 400px;
+    position: relative;
+    left:208px;
+    top: 200px;
 }
+
+#par1{
+    position: relative;
+    left: 650px;
+    bottom: 420px;
+    width: 620PX;
+}
+
+#par2{
+    position: relative;
+    left: 650px;
+    bottom: 410px;
+    width: 620PX;
+}
+
+
 
 .details{
     position: relative;
@@ -89,13 +130,13 @@ dt{
 #dir{
     position: relative;
     width:800px;
-    left: 400px;
-    bottom: 300px;
+    left: 350px;
+    bottom: 340px;
 }
 
 .search{
     position: relative;
-    bottom:1790px;
+    bottom:1970px;
     left: 550px;
 }
 
@@ -111,28 +152,6 @@ dt{
     height: 35px;
     width:50px;
     top: 12px;
-    right: 4px;
-}
-
-#tacos{
-    width: 400px;
-    position: relative;
-    left:208px;
-    top: 170px;
-}
-
-#par1{
-    position: relative;
-    left: 650px;
-    bottom: 450px;
-    width: 620PX;
-}
-
-#par2{
-    position: relative;
-    left: 650px;
-    bottom: 450px;
-    width: 620PX;
 }
 
 h1{
@@ -149,7 +168,7 @@ h2{
 #name{
     text-align: center;
     position: relative;
-    top: 180px;
+    top: 210px;
 }
 
 h3{
@@ -190,30 +209,60 @@ li{
 }
 
 nav{
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    width: 1400px;
-    height: 100px;
+    width: 1280px;
+    height: 110px;
     position: relative;
-    right: 30px;
-    bottom: 1780px;
+    bottom: 1908px;
     background-color: #FFFFFF;
 }
 
-nav a{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 20px;
-}
-
-nav span{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 20px;
-}
 
 nav li{
     display: inline;
     position: relative;
-    bottom: 35px;
+    top: 10px;
+    left:260px;
+}
+
+#iconhome{
+    position:relative;
+    bottom:1777px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#EB5428;
+    z-index: 1;
+}
+
+#iconsign{
+    position:relative;
+    bottom:2034px;
+    padding:30px;
+    left: 1180px;
+}
+
+a[href="sign-in"]{
+    position:relative;
+    bottom:2050px;
+    padding:30px;
+    left: 1078px;
+    text-decoration: none;
+    font-family:'Bebas Neue', sans-serif ;
+}
+
+a[href="home"]{
+    display: none;
+}
+
+li p{
+    display:inline-block;
+    position:relative;
+    top:20px;
+    right:60px;
+    font-family:'Bebas Neue', sans-serif ;
+    
 }
 
 input{
