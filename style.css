@@ -258,6 +258,11 @@ nav li{
     position: relative;
     top: 10px;
     left:260px;
+
+}
+
+nav img{
+    height:60px;
 }
 
 .star-ratings{
@@ -330,13 +335,13 @@ footer p{
     left: 550px;
   }
   
-  .socials svg {
+.socials svg {
     position: relative;
     top: -500px;
     left: 30px;
   }
   
-  .socials a {
+.socials a {
     font-family: "Bebas Neue", cursive;
     display: block;
     text-align: center;
