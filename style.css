@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
+html{
+    width: 1280;
+}
+
 body{
     width: 1280px;
     background-color: rgba(122, 191, 191, .5);
@@ -12,6 +16,40 @@ body{
 main{
     background-color: #f2f2f2;
     max-width: 1280px;
+}
+
+h1{
+    font-family:'Bebas Neue', sans-serif ;
+    font-size: 40px;
+    display: none;
+}
+
+h2{
+    font-family:'Bebas Neue', sans-serif ;
+    font-size: 30px;
+}
+
+
+h3{
+    font-family:'Bebas Neue', sans-serif ;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#name{
+    text-align: center;
+    position: relative;
+    top: 210px;
 }
 
 .street-tacos menu {
@@ -25,21 +63,21 @@ main{
     height: 613px;
   }
   
-  .street-tacos svg {
+.street-tacos svg {
     position: relative;
     margin-bottom: 30px;
     right: 32px;
     padding: 5px;
     margin-top: 4px;
-  }
+}
   
 
-  .street-tacos a {
+.street-tacos a {
     position: relative;
     color: #eb5428;
     left: 10px;
     text-decoration: none;
-  }
+}
 
 #tacos{
     width: 400px;
@@ -61,8 +99,6 @@ main{
     bottom: 410px;
     width: 620PX;
 }
-
-
 
 .details{
     position: relative;
@@ -108,7 +144,7 @@ dt{
     font-size: 16px;
     text-align: left;
     position: relative;
-    left: 18px;
+    left:10px;
 }
 
 #ingredients{
@@ -130,9 +166,10 @@ dt{
 #dir{
     position: relative;
     width:800px;
-    left: 350px;
+    left: 450px;
     bottom: 340px;
 }
+
 
 .search{
     position: relative;
@@ -154,38 +191,6 @@ dt{
     top: 12px;
 }
 
-h1{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 40px;
-    display: none;
-}
-
-h2{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 30px;
-}
-
-#name{
-    text-align: center;
-    position: relative;
-    top: 210px;
-}
-
-h3{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 25px;
-}
-
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-
-li{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
 
 #dishes{
     text-align: center;
@@ -225,6 +230,13 @@ nav li{
     left:260px;
 }
 
+.star-ratings{
+    color:orange;
+    position: relative;
+    bottom: 5px;
+    left:7px;
+}
+
 #iconhome{
     position:relative;
     bottom:1777px;
@@ -238,15 +250,15 @@ nav li{
 
 #iconsign{
     position:relative;
-    bottom:2034px;
+    bottom:2024px;
     padding:30px;
-    left: 1180px;
+    left: 1176px;
 }
 
 a[href="sign-in"]{
     position:relative;
-    bottom:2050px;
-    padding:30px;
+    bottom:2040px;
+    padding:20px;
     left: 1078px;
     text-decoration: none;
     font-family:'Bebas Neue', sans-serif ;
@@ -260,9 +272,8 @@ li p{
     display:inline-block;
     position:relative;
     top:20px;
-    right:60px;
-    font-family:'Bebas Neue', sans-serif ;
-    
+    right: 56px;
+    font-family:'Bebas Neue', sans-serif ; 
 }
 
 input{
@@ -270,25 +281,48 @@ input{
     font-size: 16px;
 }
 
-
 menu li{
     font-family:'Bebas Neue', sans-serif ;
     font-size: 20px;
 }
 
-#socials li{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 20px;
-}
 
-footer{
-    font-family:'Bebas Neue', sans-serif ;
-    font-size: 20px;
-}
-
-.star-ratings{
-    color:orange;
+#chef{
+    height: 150px;
     position: relative;
-    bottom: 5px;
-    left:7px;
+    bottom: 610px;
+    left: 10px;;
+}
+
+footer p{
+    font-family:'Bebas Neue', sans-serif ;
+    text-align: center;
+    margin:-4px;
+    position:relative;
+    bottom:560px;
+    right: 430px;
+}
+
+.facebook{
+    position: relative;
+    bottom:378px;
+    left: 725px;
+}
+
+.instagram{
+    position: relative;
+    bottom:422px;
+    left: 840px;
+}
+
+.youtube{
+    position: relative;
+    bottom:466px;
+    left: 970px;
+}
+
+.tiktok{
+    position: relative;
+    bottom:514px;
+    left: 1100px;
 }
