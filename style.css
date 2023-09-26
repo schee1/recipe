@@ -128,12 +128,37 @@ dl {
     height: 1px;
 }
 
-#steps{
+#step1{
     position: relative;
-    text-align: center;
-    bottom: 40px;
+    bottom: 42px;
     right: auto;
 }
+
+#step2{
+    position: relative;
+    bottom: 42px;
+    right: auto;
+}
+
+#step3{
+    position: relative;
+    bottom: 42px;
+    right: auto;
+}
+
+#step4{
+    position: relative;
+    bottom: 42px;
+    right: auto;
+}
+
+#step5{
+    position: relative;
+    bottom: 42px;
+    right: auto;
+}
+
+
 
 dd{
     font-family: 'Montserrat', sans-serif;
@@ -178,7 +203,7 @@ dt{
 
 .search{
     position: relative;
-    bottom:1996px;
+    bottom:1937px;
     left: 550px;
 }
 
@@ -212,7 +237,7 @@ dt{
     grid-template-columns: auto auto auto auto;
 }
 
-#item
+.items
 {
     margin-left: 44px;
     margin-top: -20px;
@@ -255,23 +280,11 @@ nav li{
 
 #iconsign{
     position:relative;
-    bottom:2024px;
-    padding:30px;
-    left: 1176px;
+    bottom:2000px;
+    left:1200px;
 }
 
-a[href="sign-in"]{
-    position:relative;
-    bottom:2040px;
-    padding:20px;
-    left: 1089px;
-    text-decoration: none;
-    font-family:'Bebas Neue', sans-serif ;
-}
 
-a[href="home"]{
-    display: none;
-}
 
 li p{
     display:inline-block;
@@ -292,10 +305,10 @@ menu li{
 }
 
 
-#chef{
+footer img{
     height: 150px;
     position: relative;
-    bottom: 500px;
+    bottom: 440px;
     left: 10px;
 }
 
@@ -304,7 +317,7 @@ footer p{
     text-align: center;
     margin:-4px;
     position:relative;
-    bottom:460px;
+    bottom:400px;
     right: 430px;
 }
 
@@ -313,7 +326,7 @@ footer p{
     position: relative;
     width: 100px;
     margin-left: 60px;
-    top: 100px;
+    top: 160px;
     left: 550px;
   }
   
