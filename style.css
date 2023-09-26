@@ -196,7 +196,7 @@ dt{
 #dir{
     position: relative;
     width:800px;
-    left: 450px;
+    left: 410px;
     bottom: 340px;
 }
 
@@ -301,7 +301,7 @@ li p{
     display:inline-block;
     position:relative;
     top:20px;
-    right: 56px;
+
     font-family:'Bebas Neue', sans-serif ; 
 }
 
