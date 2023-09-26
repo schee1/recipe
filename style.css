@@ -46,7 +46,7 @@ li{
 #name{
     text-align: center;
     position: relative;
-    top: 210px;
+    top: 204px;
 }
 
 .street-tacos menu {
@@ -76,6 +76,13 @@ li{
     text-decoration: none;
 }
 
+.street-tacos img{
+    height:619px;
+    position: relative;
+    left: 145px;
+    top:200px
+}
+
 #tacos{
     width: 400px;
     position: relative;
@@ -86,14 +93,14 @@ li{
 #par1{
     position: relative;
     left: 650px;
-    bottom: 420px;
+    bottom: 440px;
     width: 620PX;
 }
 
 #par2{
     position: relative;
     left: 650px;
-    bottom: 410px;
+    bottom: 434px;
     width: 620PX;
 }
 
@@ -102,6 +109,7 @@ li{
     background-color: black;
     color: #7abebf;
     height: 130px;
+    bottom: 15px;
 }
 
 #details{
@@ -170,7 +178,7 @@ dt{
 
 .search{
     position: relative;
-    bottom:1970px;
+    bottom:1996px;
     left: 550px;
 }
 
@@ -215,7 +223,7 @@ nav{
     width: 1280px;
     height: 110px;
     position: relative;
-    bottom: 1908px;
+    bottom: 1913px;
     background-color: #FFFFFF;
 }
 
@@ -236,7 +244,7 @@ nav li{
 
 #iconhome{
     position:relative;
-    bottom:1777px;
+    bottom:1783px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
