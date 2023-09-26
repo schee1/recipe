@@ -271,6 +271,12 @@ nav img{
     height:60px;
 }
 
+nav p{
+    position: relative;
+    top: 25px;
+    right:58px;
+}
+
 .star-ratings{
     color:orange;
     position: relative;
