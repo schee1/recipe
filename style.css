@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
-html{
-    width: 1280;
-}
 
 body{
     width: 1280px;
@@ -259,7 +256,7 @@ a[href="sign-in"]{
     position:relative;
     bottom:2040px;
     padding:20px;
-    left: 1078px;
+    left: 1089px;
     text-decoration: none;
     font-family:'Bebas Neue', sans-serif ;
 }
@@ -290,8 +287,8 @@ menu li{
 #chef{
     height: 150px;
     position: relative;
-    bottom: 610px;
-    left: 10px;;
+    bottom: 500px;
+    left: 10px;
 }
 
 footer p{
@@ -299,30 +296,36 @@ footer p{
     text-align: center;
     margin:-4px;
     position:relative;
-    bottom:560px;
+    bottom:460px;
     right: 430px;
 }
 
-.facebook{
+.socials li {
+    display: inline-block;
     position: relative;
-    bottom:378px;
-    left: 725px;
-}
+    width: 100px;
+    margin-left: 60px;
+    top: 100px;
+    left: 550px;
+  }
+  
+  .socials svg {
+    position: relative;
+    top: -500px;
+    left: 30px;
+  }
+  
+  .socials a {
+    font-family: "Bebas Neue", cursive;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #eb5428;
+    position: relative;
+    top: -430px;
+    font-size: 18.5px;
+  }
 
-.instagram{
-    position: relative;
-    bottom:422px;
-    left: 840px;
-}
-
-.youtube{
-    position: relative;
-    bottom:466px;
-    left: 970px;
-}
-
-.tiktok{
-    position: relative;
-    bottom:514px;
-    left: 1100px;
-}
+  
