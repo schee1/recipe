@@ -286,10 +286,16 @@ nav img{
 #iconsign{
     position:relative;
     bottom:2000px;
-    left:1200px;
+    left:1150px;
 }
 
-
+a[href="Sign-In"]{
+    position: relative;
+    bottom:1982px;
+    left:1186px ;
+    font-family:'Bebas Neue', sans-serif ; 
+    text-decoration: none;
+}
 
 li p{
     display:inline-block;
