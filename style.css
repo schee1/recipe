@@ -275,6 +275,7 @@ nav p{
     position: relative;
     top: 25px;
     right:58px;
+    color: #EB5428;
 }
 
 .star-ratings{
@@ -307,6 +308,7 @@ a[href="Sign-In"]{
     left:1186px ;
     font-family:'Bebas Neue', sans-serif ; 
     text-decoration: none;
+    color: black;
 }
 
 
